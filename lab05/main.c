@@ -15,7 +15,6 @@ int main() {
         s += sl;
         k++;
         sl = 1.0 / ((2.0*k - 1) * 2.0*k * (2.0*k + 1));
-    	//printf("sl=%lf\n", sl);
     }
     
     sr = log(2.0) - 0.5;
